@@ -1,0 +1,244 @@
+.byeglo2 {
+    background-color: #61CBF5;
+    width: 1350px;
+    height: 700px;
+}
+.byeglo2 h1{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px 480px;
+    float: right;
+}
+h2 {
+    font-size: 45px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 100px;
+}
+h5{
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin: 50px 45px;
+    float: left;
+}
+h6{
+    font-size: 40px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin: 50px 45px 30px;
+}
+h7{
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin: 20px 5px 5px 137px;
+
+}
+p{
+    font-size: 40px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin: 25px;
+    padding: 0 -50px;
+    
+}
+.result-box {
+    font-size: 60px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    border: 0;
+    padding: 25px;
+    border-radius: 25px;
+    width: 620px;
+    height: 330px;
+    display: inline-block;
+    background-color: #61CBF5;
+    margin: 20px 5px 5px 35px;
+    box-sizing: border-box;
+}
+.result-box input[type="number"] {
+    width: 150px; 
+    height: 40px; 
+    font-size: 22px; 
+    text-align: center; 
+    border-radius: 10px;
+    border: 1px solid #fff; 
+    margin-top: 10px;
+}
+.custom-input {
+    width: 150px; 
+    height: 50px; 
+    font-size: 20px; 
+    text-align: center; 
+    border-radius: 15px; 
+    border: 2px solid #001D54; 
+    margin: -107px 600px 0 400px;
+    float: right;
+}
+.box button {
+    background-color: #61CBF5; 
+    color: #000;
+    border: none; 
+    width: 300px;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 30px; 
+    margin: -120px 220px; 
+    cursor: pointer; 
+    border-radius: 15px; 
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+.box button:hover {
+    background-color: #001D54; 
+    color: white; 
+}
+
+.group-form-4 select.form-amount-4 {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    width: 300px;
+    margin: 50px 535px;
+}
+.form-amount-4 option {
+    color: #000000;
+    font-weight: bold;
+    margin: 90px 0;
+}
+.group-form-4 label {
+    color: #ffffff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin: -40px 580px;
+    float: right;
+}
+.group-form-4 input{
+    float: left;
+    width: 200px;
+    margin: 120px -500px;
+}
+.group-form-4 input.form-amount-4 {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    width: 320px;
+    box-sizing: border-box;
+}
+
+.number-inputs {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin-top: 20px ;
+    margin-left: 420px;
+}
+.number-input input {
+    width: 50px; 
+    height: 60px; 
+    text-align: center;
+    font-size: 35px;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+#submitButton {
+    width: 150px; 
+    height: 50px; 
+    font-size: 25px;
+    background-color: #001D54;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: right;
+    
+}
+
+#submitButton:hover {
+    background-color: #fff; 
+    color: #000;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    width: 500px;
+    height: 540px;
+    text-align: center;
+    border-radius: 25px; 
+    padding: 35px;
+}
+.modal-content input{
+    background-color: #fefefe;
+    text-align: center;
+    border-radius: 25px; 
+    width: 250px;
+    height: 80px;
+    font-size: 35px;
+}
+.modal-content button{
+    width: 150px;
+    height: 80px;
+    border: 0;
+    background-color: #61CBF5;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin: 50px 50px auto;
+}
+.modal-content button:hover {
+    background-color: #001D54; 
+    color: white; 
+}
+.select-button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 100px 0 0 10px;
+    width: 150px;
+    float: right;
+}
+
+.selected {
+    background-color: #001D54;
+    color: #fff;
+}
+
+.quantity-display {
+    display: inline-block;
+    color: white; 
+    margin: 0 20px;
+    font-size: 35px;
+} 

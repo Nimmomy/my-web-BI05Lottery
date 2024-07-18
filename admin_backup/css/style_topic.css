@@ -1,0 +1,152 @@
+/* CSS เดิม */
+.banner img {
+    float: left;
+    width: 100%;
+}
+
+.logo img {
+    width: 300px;
+    float: left;
+    margin: -600px 90px;
+}
+
+#menu {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    float: right;
+    margin: -595px 60px;
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    margin: 0 35px 0 0;
+}
+
+#menu li a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #61CBF5;
+    text-decoration: underline;
+}
+
+/* CSS เพิ่มเติม */
+body {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+    position: relative;
+    text-align: center;
+}
+
+.head img {
+    width: 100%;
+    height: auto;
+}
+
+.logo-2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo-2 img {
+    width: 300px; /* ปรับขนาดโลโก้ให้พอดี */
+    height: auto;
+}
+
+.menu-2 {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.menu-2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-2 ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-2 ul li a {
+    text-decoration: none;
+    color: #61CBF5;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu-2 ul li a:hover {
+    color: #ffffff;
+}
+
+#articles-container {
+    margin-top: 30px;
+}
+
+.article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.article-meta {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.article-content {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* การตอบสนอง (Responsiveness) */
+@media (max-width: 768px) {
+    .menu-2 {
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .menu-2 ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .logo-2 img {
+        width: 300px; /* ปรับขนาดโลโก้ให้พอดีสำหรับหน้าจอเล็ก */
+    }
+}
+

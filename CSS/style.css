@@ -1,0 +1,474 @@
+.wrapper {
+    width: 1350px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+
+/* Home pang */
+.banner img {
+    float: left;
+    width: 100%;
+}
+.logo img{
+    width: 300px;
+    float: left;
+    margin: -600px 90px;
+}
+
+#menu{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    float: right;
+    margin: -595px 60px;
+}
+#menu li{
+    float: left;
+    list-style: none;
+    margin: 0 35px 0 0;
+}
+#menu li a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#menu li a:hover{
+    color: #61CBF5;
+    text-decoration: underline;
+}
+
+.box1 button {
+    width: 300px;
+    height: 80px;
+    border: 0;
+    background-color: #61CBF5;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: -250px 260px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: left;
+}
+.box1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.box1 button:hover {
+    background-color: #001D54;
+}
+.box1 button:hover a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* type.php */
+.box_type h1{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    float: left;
+    margin: -480px 520px;
+}
+.group-form-2 label {
+    color: #ffffff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin: -400px 495px;
+    float: left;
+}
+.group-form-2 select{
+    float: left;
+    margin: -320px 520px;
+}
+.group-form-2 select.form-amount-2 {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    width: 300px;
+}
+.form-amount-2 option {
+    color: #000000;
+    font-weight: bold;
+}
+.box2 button {
+    width: 200px;
+    height: 60px;
+    border: 0;
+    background-color: #61CBF5;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: -120px 80px;
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: right;
+    font-weight: bold;
+    color: #ffffff;
+}
+.box2 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.box2 button:hover {
+    background-color: #001D54;
+}
+.box2 button:hover a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* page1.php */
+.type_glo h1{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    margin: -480px 490px;
+    float: left;
+}
+.type_glo h2{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffff;
+    margin: -370px 95px;
+    float: left;
+}
+
+.box3 button {
+    width: 500px;
+    height: 80px;
+    border: 0;
+    background-color: #61CBF5;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: -270px 90px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: left;
+}
+.box3 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.box3 button:hover {
+    background-color: #001D54;
+}
+.box3 button:hover a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.box4 button {
+    width: 500px;
+    height: 80px;
+    border: 0;
+    background-color: #61CBF5;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: -270px 100px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: right;
+}
+.box4 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+.box4 button:hover {
+    background-color: #001D54;
+}
+.box4 button:hover a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* buy_random.php */
+.head img {
+    float: left;
+    width: 1350px;
+}
+.logo-2 img{
+    width: 300px;
+    float: left;
+    margin: -70px 90px;
+}
+
+#menu-2{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    float: right;
+    margin: -65px 60px;
+}
+#menu-2 li{
+    float: left;
+    list-style: none;
+    margin: 0 35px 0 0;
+}
+#menu-2 li a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#menu-2 li a:hover{
+    color: #61CBF5;
+    text-decoration: underline;
+}
+.byeglo {
+    background-color: #61CBF5;
+    width: 1350px;
+    height: 610px;
+}
+.byeglo h1{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px 480px;
+    float: right;
+}
+
+.group-form label {
+    color: #ffffff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 170px;
+    float: left;
+}
+.group-form input{
+    float: left;
+    width: 200px;
+    margin: 120px -500px;
+}
+.group-form input.form-amount {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    width: 320px;
+    box-sizing: border-box;
+}
+.box5 button {
+    width: 300px;
+    height: 80px;
+    border: 0;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 100px 80px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: right;
+    font-weight: bold;
+}
+.box5 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.box5 button:hover {
+    background-color: #001D54;
+    color: #fff;
+}
+
+button {
+    width: 100px;
+    height: 80px;
+    border: 0;
+    background-color: #61CBF5;
+    color: #000000;
+    cursor: pointer;
+    margin: 100px 60px 0 100px;
+    border-radius: 25px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: right;
+}
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+button:hover {
+    background-color: #001D54;
+}
+button:hover a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* process_lottery.php + page2 */
+table {
+    width: 1350px;
+    border-collapse: collapse;
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #001D54;
+    text-align: center;
+    padding: 8px;
+}
+th {
+    background-color: #001D54;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #61CBF5
+}
+p {
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    margin: 0 90px;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 45px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    margin: 230px 0 20px 90px;
+    text-align: center;
+}
+h4 {
+    font-size: 45px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 120px 30px 0 0;
+    float: left;
+}
+h5 {
+    font-size: 45px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    margin: 30px 0 20px 90px;
+    text-align: center;
+}
+.resultsTable {
+    display: none;
+}
+.showResults {
+    width: 130px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 30px 0 80px 0;
+    float: right;
+}
+.result-box {
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+    min-width: 500px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+}
+.result-row {
+    align-items: center;
+}
+.result-unit {
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+}
+.result-label {
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    margin: 0 90px;
+    margin-top: 20px;
+    width: 450px; 
+    display: inline-block;
+}
+
+/* page2+3 */
+.byegsb {
+    background-color: #ff0f83;
+    width: 1350px;
+    height: 610px;
+}
+.byegsb h1{
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+    margin: 50px 550px;
+    float: right;
+}
+
+.group-form-3 label {
+    color: #ffffff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 170px;
+    float: left;
+}
+.group-form-3 input{
+    float: left;
+    width: 200px;
+    margin: 120px -500px;
+}
+.group-form-3 input.form-amount-3 {
+    font-size: 35px;
+    color: #fff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    width: 320px;
+    box-sizing: border-box;
+}
+.box6 button {
+    width: 300px;
+    height: 80px;
+    border: 0;
+    background-color: #fff;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 100px 100px;
+    font-size: 35px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    float: right;
+    font-weight: bold;
+}
+.box6 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.box6 button:hover {
+    background-color: #61CBF5;
+    color: #000;
+}
+
+/* searchtickets */

@@ -1,0 +1,97 @@
+body {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+   background-image: url('../img/Banner-2.png');  /* Adjust the path based on your directory structure */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header1  {
+    background-color: #61CBF5 !important;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.header1 h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 900; 
+    font-size: 26px;
+}
+
+.input-label {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #1037e3;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+}
+
+.input-group .fa-eye-slash, .input-group .fa-eye {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #020202;
+    cursor: pointer;
+}
+
+.input-group .btn {
+    background-color: #d754f8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+}
+
+.input-group .btn:hover {
+    background-color: #4ae14f;
+}
+
+p {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #666;
+}
+
+p a {
+    color: #f41919;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
